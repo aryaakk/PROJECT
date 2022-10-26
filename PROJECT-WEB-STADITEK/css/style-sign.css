@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+.fContainer {
+    background-image: url(../img/bg-sign2.jpg);
+    background-size: cover;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+    /* background-repeat: no-repeat; */
+}
+
+.form-login {
+    display: flex;
+    justify-content: center;
+}
+
+.isi {
+    background-color: #efefef;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.345);
+    padding: 20px 40px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.isi p{
+    font-size: 30px;
+    color: #150050;
+    font-weight: bold;
+    text-align: center;
+}
+
+.isi .labell{
+    font-size: 20px;
+    color: #252525;
+    font-weight: bold;
+
+}
+
+.isi .form-isi .form-inp{
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.isi .form-isi .inputt{
+    display: flex;
+    justify-content: center;
+}
+
+.isi .form-isi .inputt .button{
+    margin: 20px 0px;
+    width: 40%;
+    background-color: #150050;
+    border: none;
+    color: #efefef;
+    padding: 10px 10px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.isi .form-isi .inputt .button:hover{
+    background-color: #2146C7;
+    transform: translateY(-5px);
+}
+
+.direct{
+    display: flex;
+    justify-content: center;
+}
+
+.direct p{
+    font-size: 20px;
+    color: #252525;
+}
+.direct p a{
+    text-decoration: none;
+    color: #150050;
+}
+.direct p a:hover{
+    text-decoration: underline;
+}
