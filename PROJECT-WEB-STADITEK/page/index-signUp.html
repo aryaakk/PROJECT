@@ -46,19 +46,20 @@
             <div class="isi">
                 <p>Sign Up</p>
         
-                <form action="../php/regis.php" class="form-isi">
+                <form action="../conn_sign/query_signUp.php" method="post" class="form-isi">
                     <label class="labell">Nama</label><br>
-                    <input class="form-inp" type="text" name="nama" id="inp_nama" placeholder="Masukkan Nama Anda" autofocus><br>
+                    <input class="form-inp" type="text" name="nama_user" id="inp_nama" placeholder="Masukkan Nama Anda" autofocus><br>
                     <label class="labell">Username</label><br>
-                    <input class="form-inp" type="text" name="usernmae" id="inp_username" placeholder="Masukkan Username anda"><br>
+                    <input class="form-inp" type="text" name="username" id="inp_username" placeholder="Masukkan Username anda"><br>
                     <label class="labell" >Email</label><br>
-                    <input class="form-inp" type="email" name="email" id="inp_email" placeholder="Masukkan Email"><br>
+                    <input class="form-inp" type="email" name="email_user" id="inp_email" placeholder="Masukkan Email"><br>
                     <label class="labell">Password</label><br>
-                    <input class="form-inp" type="password" name="pass" id="inp_pass"><br>
+                    <input class="form-inp" type="password" name="password" id="inp_pass"><br>
                     <label class="labell">Confirm Password</label><br>
-                    <input class="form-inp" type="password" name="pass" id="inp_conpass"><br>
+                    <input class="form-inp" type="password" name="confirm_password" id="inp_conpass"><br>
+                    <label for="" class=""></label>
                     <div class="inputt">
-                        <input class="button" type="submit" value="Sign Up" onclick="func_up()">
+                        <input class="button" type="submit" value="Sign Up">
                     </div>
                     <div class="direct">
                         <p>Sudah Punya Akunn?? <a href="index-signIn.html">Log IN</a></p>
@@ -71,7 +72,7 @@
 
 
 
-    <script src="../js/signUp.js"></script>
+    <!-- <script src="../js/signUp.js"></script> -->
 </body>
 
 </html>
